@@ -1,0 +1,58 @@
+class Institutt {
+  String name;  
+}
+
+class Studie {
+  String name;
+  String beskrivelse;
+  * -- 1 Institutt institutt;
+}
+
+class Bedrift {
+  String navn;
+  String beskrivelse;  
+}
+
+class Prosjekt {
+   * -- 1 Studie studie;
+   * -- 1 Bedrift bedrift;
+   * -- 1 Bruker eier;
+   String navn;
+   String beskrivelse;  
+}
+
+class Arrangement {
+  String navn;
+  String beskrivelse;
+  Date utgaar;
+  * -- 1 Stemmemetode stemmemetode;
+}
+
+class Arrangementdeltagelse {
+  * -- 1 Prosjekt prosjekt;
+  * -- 1  Arrangement arrangement;
+}
+
+class Stemme {
+  String epost;
+  int verdi;
+  Date tidspunkt;
+  * -- 1 Arrangementdeltagelse arrangementdeltagelse;  
+}
+
+class Stemmemetode {
+  String navn;
+  int parameter;  
+}
+
+class Brukergruppe {
+  String gruppenavn;
+  int gruppelevel;
+}
+
+class Bruker {
+  * -- 1 Brukergruppe gruppe;
+  String brukernavn;
+  String passord;
+  bool utgatt;  
+}
