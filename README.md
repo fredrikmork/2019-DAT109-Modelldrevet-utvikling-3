@@ -1,3 +1,5 @@
+DEL 1: Bli kjent med UMPLE
+
 DEL 2: Bruk UMPLE
 
 Lag et klassediagram for din EXPO applikasjon i UMPLE 
