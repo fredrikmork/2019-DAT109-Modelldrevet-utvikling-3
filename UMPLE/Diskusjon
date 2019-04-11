@@ -1,0 +1,7 @@
+Hva var forskjellig?
+  - Vi hadde 7409 linjer med kode. Den genererte koden ga oss 2000Klassediagram og 300 på state machine. 
+    Stor forskjellig, vanskeligere å lese den genererte koden. Den har ikke med de små detaljene, 
+    men overordnet får den med seg hendelsene.
+Hva var likt?
+  - Modellene var veldig like, derimot hadde vi ikke state machine modell.
+  
