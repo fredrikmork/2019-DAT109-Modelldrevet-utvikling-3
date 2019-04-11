@@ -1,0 +1,57 @@
+class EXPO {
+  bruker {
+    LoggetInn { 
+      loggerUt -> /{loggUt();}LoggedUt;
+    }
+    LoggedUt {
+      loggeInn -> /{loggInn();}LoggetInn;
+      
+    }
+  }
+  admin {
+    adminSide {
+      erAdmin -> visStatistikk;
+      erIkkeAdmin -> visIndex;
+    }
+    
+    visStatistikk {
+    }
+    
+    visIndex {
+      
+    }
+  }
+  stemming {
+    KanIkkeStemme {
+      skriverEpost -> /{lagreEpost();}KanStemme;
+    }
+    KanStemme {
+      fjernerCookies -> /{fjerneEpost();}KanIkkeStemme;
+    }
+  }
+  
+  stemme {
+    stemmePaaProsjekt {
+      harStemtPaaProsjektFor -> /{slettGammelStemme();stem();} TakkForStemme;
+        harIkkeStemtPaaProsjektFor -> /{stem();} TakkForStemme ;
+        
+      
+    }
+    TakkForStemme {
+      
+    }
+  }
+  
+  void loggUt() {
+    
+  }
+  void loggInn() {
+    
+  }
+  void lagreEpost() {
+  }
+  void fjerneEpost() {
+  }
+}
+  
+  
