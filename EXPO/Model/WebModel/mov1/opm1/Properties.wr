@@ -1,0 +1,8 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="150" gr:y="145" id="mov1#opm1" name="Stemming">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm1#icu1" name="Input Collector" gr:x="30" gr:y="60" linkOrder="mov1#opm1#icu1#ln8">
+      <Link id="mov1#opm1#icu1#ln8" name="Flow8" to="mov1#opm1#cru1" automaticCoupling="true" type="transport" validate="true"/>
+    </InputCollectorUnit>
+    <CreateUnit gr:x="305" gr:y="200" id="mov1#opm1#cru1" name="Lag stemme" entity="ent2"/>
+  </OperationUnits>
+</OperationModule>

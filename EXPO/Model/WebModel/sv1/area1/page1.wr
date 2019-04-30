@@ -1,0 +1,48 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="30" id="sv1#area1#page1" name="Liste stands" landmark="true">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="120" id="sv1#area1#page1#pwu1" name="&lt;&lt;Stands&gt;" sortable="true" checkable="false" useCountQuery="false" entity="ent1" linkOrder="sv1#area1#page1#pwu1#ln1">
+      <Link id="sv1#area1#page1#pwu1#ln1" name="Flow1" to="sv1#area1#page2#dau1" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+    <EntryUnit gr:x="15" gr:y="0" id="sv1#area1#page1#enu2" name="Ny stand" linkOrder="sv1#area1#page1#enu2#ln9">
+      <Link id="sv1#area1#page1#enu2#ln9" name="Flow9" to="sv1#area1#miu3" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page1#pwu1">
+          <layout:Link link="sv1#area1#page1#pwu1#ln1"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page1#enu2">
+          <layout:Link link="sv1#area1#page1#enu2#ln9"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

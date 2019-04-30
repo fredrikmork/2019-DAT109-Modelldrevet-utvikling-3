@@ -1,0 +1,59 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="265" gr:y="0" id="sv1#area1#page2" name="Stand">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1#area1#page2#dau1" name="&lt;&lt;Stand&gt;&gt;" entity="ent1">
+      <Selector id="sv1#area1#page2#dau1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area1#page2#dau1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area1#page2#dau1#ln3" name="Flow3" to="sv1#area1#miu2" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <EntryUnit gr:x="5" gr:y="110" id="sv1#area1#page2#enu1" name="Stemming" linkOrder="sv1#area1#page2#enu1#ln6">
+      <MultiSelectionField id="sv1#area1#page2#enu1#msfld1" name="Multi Selection Field1" type="integer" preselectValue="3">
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot1" name="1" label="true" output="true" value="1"/>
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot2" name="2" label="true" output="true" value="2"/>
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot3" name="3" label="true" output="true" value="3"/>
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot4" name="4" label="true" output="true" value="4"/>
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot5" name="5" label="true" output="true" value="5"/>
+        <Slot id="sv1#area1#page2#enu1#msfld1#slot6" name="0" label="true" output="true" value="0"/>
+      </MultiSelectionField>
+      <Link id="sv1#area1#page2#enu1#ln5" name="Flow5" to="sv1#area1#miu2" automaticCoupling="true" type="transport" validate="true" gr:bendpoints="106,-14,-139,51"/>
+      <Link id="sv1#area1#page2#enu1#ln6" name="Flow6" to="sv1#area1#miu2" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page2#dau1"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page2#enu1">
+          <layout:Field field="sv1#area1#page2#enu1#msfld1"/>
+          <layout:Link link="sv1#area1#page2#enu1#ln6"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
