@@ -1,0 +1,29 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="100" gr:y="105" id="sv3#page9" name="ShoppingCart">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv3#page9#inu1" name="&lt;&lt;List&gt;&gt;" linkOrder="sv3#page9#inu1#ln18 sv3#page9#inu1#ln19">
+      <Link id="sv3#page9#inu1#ln18" name="Flow18" to="sv3#miu2" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv3#page9#inu1#ln19" name="Flow19" to="sv3#miu3" automaticCoupling="true" type="normal" validate="true"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv3#page9#inu1">
+          <layout:Link link="sv3#page9#inu1#ln18"/>
+          <layout:Link link="sv3#page9#inu1#ln19"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

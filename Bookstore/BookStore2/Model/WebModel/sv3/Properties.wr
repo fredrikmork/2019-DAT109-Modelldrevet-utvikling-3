@@ -1,0 +1,10 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv3" name="Figure12">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="320" gr:y="175" id="sv3#miu2" action="true" name="Empty the cart" linkOrder="sv3#miu2#ln16">
+      <Link id="sv3#miu2#ln16" name="Flow16" to="sv3#page10" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="275" gr:y="75" id="sv3#miu3" action="true" name="Update the quantities" linkOrder="sv3#miu3#ln17">
+      <Link id="sv3#miu3#ln17" name="Flow17" to="sv3#page9" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</SiteView>

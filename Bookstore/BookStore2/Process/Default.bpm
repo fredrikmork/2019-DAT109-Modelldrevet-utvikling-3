@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?bpm version="1.0.8"?>
+
+<BPMProject xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:showTooltip="true" gr:showActivityParameters="true" uuid="JUWABKPI_AQ3M6W">  
+  <Pool id="pool1" name="Pool 1" uuid="JUWABKPY_73C">
+    <Parameters/>
+    <Lane id="pool1#lane1" name="Lane 1" notification="None" uuid="JUWABKPY_1C2">
+      <Task id="pool1#lane1#task1" name="Task 1" execution="userExecution" gr:x="168" gr:y="36" uuid="JUWABKPY_1VI">
+   	    <FlowConnector id="pool1#lane1#task1#fcon2" to="pool1#lane1#endter1" uuid="JUWABKPY_4SZ"/>
+	  </Task>
+	  <StartEvent execution="userExecution" gr:x="36" gr:y="48" id="pool1#lane1#strev2" name="Start Event 1" uuid="JUWABKPY_7K8">
+		<FlowConnector id="pool1#lane1#strev2#fcon1" to="pool1#lane1#task1" uuid="JUWABKPY_54O"/>
+	  </StartEvent>
+	  <EndEvent id="pool1#lane1#endter1" name="End Event 1" uuid="JUWABKPY_17G" gr:x="312" gr:y="48"/>
+    </Lane>
+  </Pool>
+</BPMProject>

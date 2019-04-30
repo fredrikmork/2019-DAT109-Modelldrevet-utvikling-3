@@ -1,0 +1,8 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Site View 1" landmarks="sv1#area1 sv1#area2" homePage="sv1#area1#gtu1">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="220" gr:y="165" id="sv1#miu1" action="true" linkOrder="sv1#miu1#ln7">
+      <OKLink id="sv1#miu1#oln1" name="OKFlow1" to="sv1#area1#page1" automaticCoupling="true"/>
+      <Link id="sv1#miu1#ln7" name="Flow7" to="sv1#area1#page3" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</SiteView>

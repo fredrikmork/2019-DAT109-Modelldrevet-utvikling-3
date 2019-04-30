@@ -1,0 +1,12 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="45" gr:y="10" id="sv1#area1" name="BookStore POS" landmark="true" defaultPage="sv1#area1#mlu1">
+  <OperationUnits>
+    <GetUnit gr:x="0" gr:y="0" id="sv1#area1#gtu1" name="Start" linkOrder="sv1#area1#gtu1#ln1">
+      <Link id="sv1#area1#gtu1#ln1" name="Flow1" to="sv1#area1#page1" automaticCoupling="true" type="transport" validate="true"/>
+    </GetUnit>
+    <MailUnit gr:x="195" gr:y="350" id="sv1#area1#mlu1" name="Mail" format="plainText" linkOrder="sv1#area1#mlu1#ln11 sv1#area1#mlu1#ln13">
+      <Link id="sv1#area1#mlu1#ln11" name="Flow11" to="sv1#area2" automaticCoupling="true" type="transport" validate="true"/>
+      <Link id="sv1#area1#mlu1#ln13" name="Flow13" to="sv1#area1#page5" automaticCoupling="true" type="transport" validate="true"/>
+    </MailUnit>
+    <SetUnit gr:x="220" gr:y="445" id="sv1#area1#stu1" name="Finish"/>
+  </OperationUnits>
+</Area>
