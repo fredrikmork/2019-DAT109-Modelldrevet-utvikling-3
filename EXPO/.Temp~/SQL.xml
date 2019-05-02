@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DBError statementIndex="-1">
+  <ErrorMessage>This ResultSet is closed.</ErrorMessage>
+  <Comment>org.postgresql.util.PSQLException</Comment>
+  <ErrorMessage>This ResultSet is closed.</ErrorMessage>
+  <StackTrace>org.postgresql.util.PSQLException: This ResultSet is closed.
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.checkClosed(AbstractJdbc2ResultSet.java:2469)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.setFetchSize(AbstractJdbc2ResultSet.java:1825)
+	at org.postgresql.jdbc2.Jdbc2Statement.createResultSet(Jdbc2Statement.java:39)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement$StatementResultHandler.handleResultRows(AbstractJdbc2Statement.java:196)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1282)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:192)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:471)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:359)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.execSQLUpdate(AbstractJdbc2Connection.java:221)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.getTransactionIsolation(AbstractJdbc2Connection.java:687)
+	at com.webratio.commons.db.utils.DBUtils.main(DBUtils.java:250)
+</StackTrace></DBError>

@@ -6,14 +6,14 @@
     <Property name="applicationServer">Tomcat</Property>
     <Property name="cloudDeploy">false</Property>
     <Property name="commonsLibDir">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\WebRatio\plugins\com.webratio.commons.libs_7.2.18.201903231300\lib</Property>
-    <Property name="dbConfigPath">C:\Users\Bruker\AppData\Local\Temp\WRDBConfig2814800461804052670.xml</Property>
+    <Property name="dbConfigPath">C:\Users\Bruker\AppData\Local\Temp\WRDBConfig7154243076266921021.xml</Property>
     <Property name="defaultEncoding"></Property>
     <Property name="deployCorePluginDir">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\WebRatio\configuration\org.eclipse.osgi\bundles\49\1\.cp</Property>
     <Property name="derbySystemHome">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby</Property>
     <Property name="enterpriseProjectDir"></Property>
-    <Property name="eventSocketPort">56135</Property>
+    <Property name="eventSocketPort">52867</Property>
     <Property name="excludedProjects" type="list"></Property>
-    <Property name="generationTime">201904301155</Property>
+    <Property name="generationTime">201905020924</Property>
     <Property name="helpersPluginDir">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\WebRatio\plugins\com.webratio.generator.helpers_7.2.18.201903231300</Property>
     <Property name="hostAlwaysAllowed">false</Property>
     <Property name="i18nBundleKeysFile" type="file"></Property>
@@ -25,7 +25,7 @@
     <Property name="phases">All</Property>
     <Property name="projectDir">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\EXPO</Property>
     <Property name="projectName">EXPO</Property>
-    <Property name="projectPath">C:\Users\Bruker\AppData\Local\Temp\Project4640865647720624319.wr</Property>
+    <Property name="projectPath">C:\Users\Bruker\AppData\Local\Temp\Project2421000010198720124.wr</Property>
     <Property name="projectType">WEBPROJECT</Property>
     <Property name="rootModuleName"></Property>
     <Property name="uiPluginDir">C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\WebRatio\plugins\com.webratio.ide.ui_7.2.18.201903231300</Property>

@@ -1,6 +1,6 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="10" gr:y="70" id="sv1#area1" name="Area 1" landmark="true" landmarks="sv1#area1#page1 sv1#area1#miu2" defaultPage="sv1#area1#miu2">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="10" gr:y="100" id="sv1#area1" name="Area 1" landmark="true" landmarks="sv1#area1#page1 sv1#area1#miu2" defaultPage="sv1#area1#miu2">
   <OperationUnits>
-    <ModuleInstanceUnit gr:x="490" gr:y="75" id="sv1#area1#miu2" action="true" name="Stemming" moduleId="mov1#opm1" landmark="true"/>
-    <ModuleInstanceUnit gr:x="340" gr:y="280" id="sv1#area1#miu3" moduleId="mov2#opm2" action="true"/>
+    <ModuleInstanceUnit gr:x="435" gr:y="185" id="sv1#area1#miu2" action="true" name="Stemming" moduleId="mov1#opm1" landmark="true"/>
+    <ModuleInstanceUnit gr:x="225" gr:y="5" id="sv1#area1#miu3" moduleId="mov2#opm2" action="true"/>
   </OperationUnits>
 </Area>

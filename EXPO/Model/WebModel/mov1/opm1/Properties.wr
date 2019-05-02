@@ -3,6 +3,6 @@
     <InputCollectorUnit id="mov1#opm1#icu1" name="Input Collector" gr:x="30" gr:y="60" linkOrder="mov1#opm1#icu1#ln8">
       <Link id="mov1#opm1#icu1#ln8" name="Flow8" to="mov1#opm1#cru1" automaticCoupling="true" type="transport" validate="true"/>
     </InputCollectorUnit>
-    <CreateUnit gr:x="305" gr:y="200" id="mov1#opm1#cru1" name="Lag stemme" entity="ent2"/>
+    <CreateUnit gr:x="275" gr:y="300" id="mov1#opm1#cru1" name="Lag stemme" entity="ent2"/>
   </OperationUnits>
 </OperationModule>

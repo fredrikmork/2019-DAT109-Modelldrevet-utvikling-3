@@ -1,0 +1,21 @@
+[02 mai 2019 09:29:23] DEBUG Executing SQL script
+[02 mai 2019 09:29:23] INFO ================================================================================
+[02 mai 2019 09:29:23] INFO onError= 'abort'
+[02 mai 2019 09:29:23] INFO autoCommit= 'false'
+[02 mai 2019 09:29:23] INFO username= 'h571530'
+[02 mai 2019 09:29:23] INFO outputPath= 'C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\EXPO\.Temp~\SQL.xml'
+[02 mai 2019 09:29:23] INFO outputLogPath= 'C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\EXPO\.Temp~\SQL.xml.log'
+[02 mai 2019 09:29:23] INFO encoding= ''
+[02 mai 2019 09:29:23] INFO driverClass= 'org.postgresql.Driver'
+[02 mai 2019 09:29:23] INFO sqlScript= 'C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\EXPO\DBScripts\Database_190502_092542.sql'
+[02 mai 2019 09:29:23] INFO eventSocketPort= '52917'
+[02 mai 2019 09:29:23] INFO statementSeparator= ';'
+[02 mai 2019 09:29:23] INFO derby.system.home= 'C:\WebRatio\WebRatio Community Platform 7.2.18.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[02 mai 2019 09:29:23] INFO password= 'pass'
+[02 mai 2019 09:29:23] INFO url= 'jdbc:postgresql://data1.hib.no:5432/h571530'
+[02 mai 2019 09:29:23] INFO ================================================================================
+[02 mai 2019 09:29:23] INFO Connecting to the Database...
+[02 mai 2019 09:29:23] INFO Database connection estabilished
+[02 mai 2019 09:29:23] ERROR SQL SCRIPT EXECUTION FAILED
+[02 mai 2019 09:29:23] INFO Database connection closed
+[02 mai 2019 09:29:23] DEBUG Total time: 236 milliseconds
